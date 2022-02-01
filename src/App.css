@@ -1,0 +1,48 @@
+.App {
+  font-family: 'Inter';
+  font-size: 1rem;
+  background-color: #E7EBF3;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.title > img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+.title > h1 {
+  font-size: 1.50rem;
+}
+
+.form {
+  padding-bottom: 10px;
+}
+
+.stepper {
+  margin-bottom: 4rem;
+}
